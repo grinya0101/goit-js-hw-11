@@ -67,6 +67,7 @@ const getPosts = async () => {
 }
 
 
+
 function createList(data) {
   //refsEl.input.value = ""
   const result = data.map(({ webformatURL,  largeImageURL, tags, likes, views, comments, downloads}) => {
